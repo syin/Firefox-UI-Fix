@@ -8,7 +8,7 @@
   /* Theme - Compatibility ****************************************************/
   /* Header Image */
   :root[lwtheme-image] {
-      background-image: var(--lwt-header-image)  !important; /* Original: var(--lwt-header-image) */
+/*       background-image: var(--lwt-header-image)  !important; /* Original: var(--lwt-header-image) */ */
       background-repeat: no-repeat !important;
       background-position: right top !important;
   }
@@ -26,7 +26,7 @@
       background-color: var(--lwt-accent-color) !important;
     }
     #TabsToolbar:-moz-lwtheme {
-      color: var(--lwt-text-color) !important;
+/*       color: var(--lwt-text-color) !important; */
 
       /* Remove Aero */
       /* Original: radial-gradient(eclipse at bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5) 80%, transparent) */
@@ -193,12 +193,13 @@
 
   /** Tab Bar - Connect to window *********************************************/
   .tab-background {
-    border-radius: var(--tab-border-radius) var(--tab-border-radius) 0px 0px !important;
+    border-radius: 0px 0px 0px 0px !important;
     margin-bottom: 0px !important;
+    margin-top: 0px!important;
   }
 
   .tab-content {
-    margin-top: var(--proton-tab-block-margin);
+    margin-top: 0px!important;
   }
 
   .tab-stack {
